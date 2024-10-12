@@ -1,9 +1,10 @@
-import { Header } from "./components/Header";
+import { Header, SliderMenu } from "./components/index";
 
 function App() {
   return (
     <div>
       <Header />
+      <SliderMenu />
     </div>
   );
 }
