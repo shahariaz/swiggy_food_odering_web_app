@@ -1,15 +1,16 @@
 import { motion } from "framer-motion";
+
 export const RestoCard = (props) => {
   const { name, sla, avgRatingString, cuisines, areaName, cloudinaryImageId } =
     props.data;
   return (
     <motion.div
-      className=" w-[400px] h-[400px] mt-5 shadow-md rounded-2xl p-2 "
+      className=" w-[470px] h-[470px] mt-5 shadow-md rounded-2xl p-2 "
       whileHover={{ scale: 0.93 }}
       transition={{ duration: 0.3 }}
     >
       <img
-        className=" w-full h-[280px] rounded-2xl "
+        className=" w-[460px] h-[350px] rounded-2xl cover "
         src={"https://media-assets.swiggy.com/" + cloudinaryImageId}
         alt=""
       />
