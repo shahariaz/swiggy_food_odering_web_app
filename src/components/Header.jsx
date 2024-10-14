@@ -4,7 +4,7 @@ import { LocationButton } from "./LocationButton";
 export const Header = () => {
   return (
     <header className="bg-gradient-to-b from-white to-[#D1C6F6] p-3 rounded-b-3xl">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1980px] mx-auto">
         <nav className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img
